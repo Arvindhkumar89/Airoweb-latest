@@ -1,0 +1,195 @@
+.maincontainer{
+    background-image: url('../login/bck111.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* height: 200vh; */
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    font-family: 'Montserrat';
+    font-weight: 525;
+}
+.navbar{
+    width: 50%;
+    font-size: larger;
+}
+.navbar nav{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 7%;
+    
+}
+.searchd{
+    display: flex;
+    justify-content: space-between;
+}
+.searchd label{
+    display: block;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 525;
+    padding-bottom: 10%;
+}
+.searchd input{
+    padding: 2% 0%;
+    padding-left: 9.5%;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #687083;
+}  
+.searchd select option{
+    font-size: medium;
+    font-family: 'Montserrat';
+}
+.searchd select{
+    margin-top: 4%;
+    padding: 4% 3%;
+    border: none;
+    border-radius: 5px;
+    box-shadow:1px 2px 3px gray;
+    font-size:medium;
+}
+.searchl{
+    margin-left: 8%;
+}
+.searchr{
+    margin-right: 8%;
+}
+.maincontainer .button1{
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-family: 'Montserrat';
+    border-radius: 55px;
+    border: none;
+    padding: 1% 4%;
+    margin-left: 43.5%;
+    margin-top: 5%;
+}
+.maincontainer .button2{
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-family: 'Montserrat';
+    border-radius: 55px;
+    border: none;
+    padding: 1% 4%;
+    margin-left: 43.5%;
+    margin-top: 5%;
+}
+.maincontainer .button3{
+    padding: 1% 2%;
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 40%;
+}
+.maincontainer button:hover{
+    background-color: red;
+}
+
+.form1{
+    border: 2px solid grey;
+    margin-top: 5%;
+    width: 87%;
+    margin-left: 5%;
+    padding: 4% 1%;
+    border-radius: 40px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+}
+.maincontainer h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+
+.maincontainer h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 5%;
+}
+.flight1{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3%;
+    padding: 1% 1%;
+    border-radius: 20px;
+    box-shadow: 1px 10px 30px rgb(0, 0, 0);
+
+}
+.flight1 p{
+    font-family: 'Montserrat';
+}
+.flight1 h3{
+    font-family: 'Montserrat';
+}
+.flightl{
+    margin-left: 4%;
+}
+.flightr{
+    margin-right: 8%;
+}
+.flightr button{
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    font-family: 'Montserrat';
+    border-radius: 40px;
+    border: none;
+    padding: 10% 12%;
+    margin-left: 43.5%;
+
+}
+.flightr button:hover{
+    background-color: red;
+}
+
+.maincontainer .form111 .form12{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 50%;
+    padding: 2% 0%;
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 10px 20px 40px rgb(0, 0, 0);
+
+}
+.form12 label{
+    display: block;
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: 600;
+    padding: 2% 1%;
+}
+.form12 input{
+    padding: 1% 1%;
+    font-size: medium;
+}
+.formleft{
+    margin-left: 10%;
+}
+.formright{
+    margin-right: 10%;
+}

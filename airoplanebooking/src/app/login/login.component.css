@@ -1,0 +1,223 @@
+.log1{
+    display: flex;
+    justify-content: space-between;
+    height:100vh;
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
+    /* background-image: url('../login/bck111.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logimg{
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .logimg img{
+    margin-top: 15%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  .logimg h1{
+    font-size: 58px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    background: linear-gradient(to right, #802424 0% , red 30%,rgb(238, 54, 73) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .logimg p{
+    font-size: larger;
+    font-family: 'Montserrat';
+    margin-left: 6%;
+    width: 80%;
+    margin-top: 3%;
+  
+  }
+  
+  .loginp{
+    width: 50%;
+    background-image: none;
+    padding-bottom: 7%;
+  }
+  .loginp form{
+    /* text-align: center; */
+    margin-top: 21%;
+    border: 2px solid white;
+    /* background-color: white; */
+    width: 50%;
+    /* height: 49%; */
+    font-family: 'Montserrat';
+    padding: 3% 8%;
+    margin-left: 16%;
+    border-radius: 40px;
+    padding-bottom: 4%;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+  
+  }
+  .loginp form hr{
+    width: 96%;
+    border: 1px solid rgb(203, 196, 196);
+  }
+  .loginp label{
+    display: block;
+    color: #404550;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+  }
+  
+  .loginp p{
+    color: #404550;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+  }
+  .log11{
+    width: 96%;
+    padding-bottom: 5%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 30.48px;
+    font-family: 'Montserrat';
+    /* padding-bottom: 2%; */
+  }
+  .loginp i{
+    position: absolute;
+    font-size:large;
+    margin-left: 0.7%;
+    margin-top: 0.7%;
+    color: #404550;
+  }
+  .log1 input{
+    border: none;
+    border: 1.5px solid #687083;
+    padding: 2% 0%;
+    padding-left: 12%;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #687083;
+  }
+  .log1 input[type="email"] {
+    font-size:15px;
+  }
+  
+  .log1 input::placeholder{
+    font-weight:300;
+    font-family: Montserrat;
+    font-size: small;
+  }
+  
+  .loginp button{
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-family: 'Montserrat';
+    border-radius: 55px;
+    border: none;
+    padding: 2% 11%;
+    margin-left: 30%;
+    margin-top: 2%;
+  }
+  .loginp button:hover{
+    background-color: red;
+  }
+  .loginp .forget{
+    font-size: small;
+    font-weight: 300;
+    margin-left: 58%;
+  }
+  .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  /* .goog  a{
+    position: absolute;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-left: -42px;
+    margin-top: -5px;
+  } */
+  .goog a{
+    text-decoration: none;
+  }
+  .goog i{
+    font-size: 25px;
+    /* border: 2px solid red; */
+    position: relative;
+    margin-right: 50%;
+    margin-right: 10%;
+  }
+  .goog p{
+    text-align: center;
+    box-shadow: 1px 1px 50px rgb(0, 0, 0);
+    font-weight: 400;
+    width: 50%;
+    margin-left: 24%;
+    padding: 0% ;
+    margin-top: 5%;
+    font-family: 'Montserrat';
+    background-color: white;
+    border-radius: 55px;
+    padding: 1.2%;
+  
+  }
+  .logs p{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-top: 2%;
+  }
+  .logs a{
+    text-decoration: none;
+    color: rgb(232, 24, 24);
+  }
+  .logs a:hover{
+    color: red;
+    text-decoration: underline;
+  
+  }
+  .emclass1{
+    border: 1px solid rgb(216, 47, 47);
+    width: 75%;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    padding: 1%;
+  }
+  .emclass1 p{
+    color: red;
+    /* padding: 6%; */
+    text-align: center;
+    padding-left: 20%;
+    /* padding-bottom: 12%; */
+  }
+  .emclass1 span{
+    color: #F32013;
+    position: absolute;
+    font-size: xx-large;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    
+    
+  }
+  
+  .passsign p{
+    color:red;
+    padding-bottom: 0%;
+    padding-top: 1.5%;
+    font-size: medium;
+    margin-left:1% ;
+  }
+  
+  

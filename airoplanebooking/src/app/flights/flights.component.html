@@ -1,0 +1,45 @@
+<div class="maincontainer"> 
+    <div class="main1">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#" routerLink="/">Log Out</a>
+            </nav>
+        </div>
+    </div>
+    <div *ngIf="!isFlightEmpty()">
+        <h1>Available Flights</h1>
+    </div>
+    <div *ngIf="isFlightEmpty()">
+        <h1>No flights available</h1>
+    </div>
+    <div class="flight1" *ngFor="let key of flightKeys()">    
+        <div class="flightl">
+            <p> {{flight[key][1]}}</p>
+            <p>{{flight[key][9]}}</p>
+            <p>{{flight[key][2]}}</p>
+            <h3>{{flight[key][5]}}</h3>
+        </div>
+        <div>
+            <h3 style="margin-top: 40%;">{{flight[key][7]}}</h3>
+        </div>
+        <div>
+            <p>Seats : {{flight[key][11]}}</p>
+            <p>{{flight[key][10]}}</p>
+            <p>{{flight[key][3]}}</p>
+            <h3>{{flight[key][6]}}</h3>
+        </div>
+        <div>
+            <h3 style="margin-top: 50%;">{{flight[key][8]}}</h3>
+        </div>
+        <div class="flightr">
+            <button routerLink="/book" style="margin-top: 30%;" type="submit" (click)="showKey(key)">SELECT</button>
+        </div>   
+    </div>
+    <br>
+</div>

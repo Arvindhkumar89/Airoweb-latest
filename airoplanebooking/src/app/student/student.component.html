@@ -1,0 +1,9 @@
+<form action="">
+    <label for="name"> Name:</label>
+    <input type="text" name="name1" [(ngModel)]="detail.name1">
+    <label for="class1"> Class:</label>
+    <input type="text" name="class1" [(ngModel)]="detail.class1">
+    <button type="submit" (click)="submit()" > submit</button>
+
+    <p>{{message | json}}</p>
+</form>

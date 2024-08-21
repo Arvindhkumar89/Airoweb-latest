@@ -1,0 +1,55 @@
+<div class="maincontainer">
+    <div class="main1">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" routerLink="/">Log Out</a>
+            </nav>
+        </div>
+    </div>
+    <h1>Search</h1>
+    <form action="">
+        <div class="book1" >
+            <div>
+                <label for="">FLIGHT NUMBER:</label>
+                <input type="number" name="num" [(ngModel)]="search.num">
+            </div>
+            <div>
+                <label for="">Time</label>
+                <select name="time1" id="" [(ngModel)]="search.time1">
+                <option value="before6">BEFORE 6 AM</option>  
+                <option value="6 to 12">6AM to 12PM</option>
+                <option value="12 to 6">12PM to 6PM</option>
+                <option value="after6">AFTER 6PM</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" (click)="submit1()">SEARCH</button>
+    </form>
+    <div *ngFor="let booking of bookings">
+        <h1>Booking Details:</h1>
+        <div class="detail">
+            <div class="left1">
+                <p>Name:{{booking[12] }}</p>
+                <p>Mobile:{{booking[13] }}</p>
+                <p>Email:{{booking[14] }}</p>
+                <p>Flight Number: {{ booking[0] }}</p>
+                <p>Airline: {{ booking[1] }}</p>
+                <p>From: {{ booking[2] }}</p>
+                <p>To: {{ booking[3] }}</p>
+                <p>Date: {{ booking[4] }}</p>
+            </div>
+            <div class="right1">
+                <p>Departure Time: {{ booking[5] }}</p>
+                <p>Arrival Time: {{ booking[6] }}</p>
+                <p>Duration: {{ booking[7] }}</p>
+                <p>Price: {{ booking[8] }}</p>
+                <p>From Airport Code: {{ booking[9] }}</p>
+                <p>To Airport Code: {{ booking[10] }}</p>
+                <p>Seat no: {{ booking[11] -1 }}</p>
+            </div>
+        </div>
+</div>

@@ -1,0 +1,341 @@
+.maincontainer{
+    background-image: url('../login/bck111.jpg');
+    background-repeat:no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    font-family: 'Montserrat';
+    font-weight: 525;
+}
+.navbar{
+    width: 50%;
+    font-size: larger;
+}
+.navbar nav{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 7%;
+    
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+.welcome{
+    width: 45%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.homeimg{
+    margin-right: 10%;
+    width: 49%;
+}
+.homeimg img{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.welcome h3{
+    background: linear-gradient(to right, #4326d2 , #1ee0e7 50%,rgb(25, 167, 167) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2%;
+    
+}
+.welcome h1{
+    font-size: 58px;
+    font-weight: 600;
+    background: linear-gradient(to right, #802424 0% , #cd1111 30%,rgb(238, 54, 73) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome p{
+    font-size: larger;
+    justify-content: left;
+    margin-top: 4%;
+
+}
+.welcome h4{
+    background: linear-gradient(to right, #3c0953 0% , #9807e7 30%,rgb(155, 223, 240) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 5%;
+}
+.upload{
+    
+    margin-top: 6%;
+    padding-bottom: 2%;
+}
+.welcome input{
+    padding-left: 1%;
+}
+.welcome a{
+    border-color: white;
+    padding: 1.5% 5%;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(237, 17, 17);
+    /* background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    border-radius: 12px;
+    margin-left: 1%;
+    text-decoration: none;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+.about h1{
+    text-align: center;
+}
+.aboutus p{
+    width: 50%;
+    font-family: 'Montserrat';
+    font-size: larger;
+    color: black;
+}
+.aboutus img{
+    position: relative;
+    width: 80%;
+    margin-bottom: 10%;
+    margin-left: 10%;  
+}
+.about h1{
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Montserrat';
+    color: blue;
+}
+.aboutp p{
+    font-family: 'Montserrat';
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 18%;
+
+}
+.navbar a:hover{
+    color: red;
+}
+.footer{
+    display: flex;
+    background-color: #001219;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: sans-serif;
+    height: 210px;
+    /* margin-top: 13%; */
+
+    /* font-family: 'Montserrat'; */
+
+
+}
+.footer .footer1{
+    background-color: #001219;
+    margin-left: 15%;
+    padding-top: -110px;
+    font-family: 'Montserrat';
+    margin-top: 2%;
+}
+.footer .footer4{
+    margin-right: 15%;
+    font-family: 'Montserrat';
+    margin-top: 2%;
+}
+.footer1 ul li a{
+    color: #f1faee;
+    font-size: larger;
+    text-decoration: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.footer1 ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer1 ul h2{
+    color: wheat;
+    padding-top: 70px;
+    padding-bottom: 6%;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding-top: 0%;
+}
+.footer2{
+   margin-top: 2%; 
+}
+.footer2 ul li a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.footer .footer2 ul h2{
+    color: wheat;
+    padding-top: 70px;
+    padding-bottom: 6%;
+    font-weight: 600;
+    padding-top: 0%;
+}
+
+.footer2 ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+.footer3 ul li a{
+    color: #f1faee;
+    font-size: larger;
+    text-decoration: none;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.footer .footer3 ul h2{
+    color: wheat;
+    padding-top: 70px;
+    padding-bottom: 6%;
+    font-weight: 600;
+    padding-top: 0%;
+}
+
+.footer3 ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.footer4 ul h2{
+    color: wheat;
+    padding-top: 70px;
+    padding-bottom: 6%;
+    font-weight: 600;
+    padding-top: 0%;
+}
+
+.footer4 ul li{
+    color: #f1faee;
+    font-size: larger;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+/* .sociallink .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}  */
+.pname .social .fa-facebook {
+    background: #3B5998;
+    color: white;
+    /* font-size: large; */
+    /* border-radius: 100%; */
+}
+  
+.sociallink .fa-twitter {
+    background: #55ACEE;
+    /* font-size: xx-large; */
+    /* font-size: large; */
+    color: white;
+}
+.fa-instagram {
+    background: #bc2a8d;
+    color: white;
+  }
+  
+.footsocial{
+    /* border: 2px solid red; */
+    margin-right: 200px;
+    margin-top: 15px;
+}
+
+
+.pname{
+    display: flex;
+    justify-content: space-between;
+    background-color:#001219 ;
+    padding-bottom: 2%;
+}
+.pname h1{
+    color: rgb(231, 40, 40);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    margin-left:227px ;
+    padding-top: 8%;
+    font-size: x-large;
+}
+.line{
+    background-color:#001219 ;
+    padding: 0%;
+    color: gold;
+    width: 71%;
+    margin-left: 14.8%;
+    /* padding-left: 15%; */
+}
+footer{
+    background-color: #001219;
+}
+.social{
+    margin-right: 15%;
+}
+.social .fa:hover{
+    font-size: large;
+}
+.footsocial{
+    margin-right: 18.5%;
+}
+.footsocial ul{
+
+    width: 200%;
+    
+}
+.footsocial li{
+    display: inline;
+    padding: 5%;
+    width: 60%;
+    /* width: 90%; */
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #bc2a8d;
+    color: white;
+  }

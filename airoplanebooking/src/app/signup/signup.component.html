@@ -1,0 +1,30 @@
+<div class="signup1">
+    <div class="signup2">
+        <img src="" alt="">
+      <form action="">
+        <h5>SIGN UP</h5>
+        <hr>
+        <div *ngIf="em === 'Fill the required field'|| em ==='The email is invalid' || em ==='Account already exists'" class="emclass1">
+          <span class="material-symbols-outlined">warning</span>
+          <p>{{em}}</p>
+        </div>
+        <label class="signame" for="name">NAME:</label>
+        <i class="fa fa-user icon"></i>
+        <input type="text" size="35" placeholder="NAME" name="username" [(ngModel)]="signup.username">
+        <label for="email">E-MAIL:</label>
+        <div class="email1">
+          <i class="fa fa-envelope" style="font-size: large;"></i>
+          <input type="email" size="35" placeholder="E-MAIL" name="email" [(ngModel)]="signup.email">
+        </div>
+        <label for="password">PASSWORD:</label>
+        <i class="fa fa-lock"></i>
+        <input type="password" size="35" placeholder="PASSWORD" name="password" [(ngModel)]="signup.password">
+        <div *ngIf="em==='Atleast 8 characters required'" class="passsign">
+          <p >{{em}}</p>
+        </div>
+        <button (click)="submit()" type="submit">SIGNUP</button>
+        <p class="signlog">Already a user? <a routerLink="/" href="">LOGIN</a></p>
+      </form>
+    </div>
+  </div>
+  

@@ -1,0 +1,27 @@
+<div class="log1">
+    <div class="logimg">
+        <h1>Welcome ADMIN !</h1>
+        <p>You can sign in to access with your existing account </p>
+        <img src="../assets/img/airo5_adobe_express.svg" alt="">
+        <img src="" alt="">
+    </div>
+    <div class="loginp">
+        <form  action="" >
+            <h5 class="log11">LOGIN</h5>
+            <hr>
+            <div *ngIf="emessage === 'Fill the required field'|| emessage ==='Invalid Password' || emessage ==='Invalid Email'" class="emclass1">
+                <span class="material-symbols-outlined">warning</span>
+                <p>{{emessage}}</p>
+              </div>
+            <label for='email'style="padding-top: 6%;">USERNAME:</label>
+            <i class="fa fa-user icon"></i>
+            <input type="email" size="35" placeholder="USERNAME" name='email' [(ngModel)]="login.email">
+            <label for='password' style="padding-top: 4%;">PASSWORD:</label>
+            <i class="fa fa-lock"></i>
+            <input type="password" size="35" placeholder="PASSWORD" name="password"[(ngModel)]="login.password" >
+            <p class="forget">Forget Password?</p>
+            <button (click)="submit()" type="submit">LOGIN</button>
+        </form>
+    </div>
+</div>
+

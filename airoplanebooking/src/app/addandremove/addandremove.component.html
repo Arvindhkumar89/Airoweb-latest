@@ -1,0 +1,120 @@
+<div class="maincontainer">
+    <div class="main1">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="#">Home</a>
+                <a routerLink="/adminbook" href="#">Bookings</a>
+                <a href="#" routerLink="/">Log Out</a>
+            </nav>
+        </div>
+    </div>
+    <h1>Domestic and International Flights</h1>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <div class="searchd">
+            <div class="searchl">
+                <label for="">FROM</label>
+                <input type="search" name="from" [(ngModel)]="search.from">
+            </div>
+            <div>
+                <label for="">TO</label>
+                <input type="search" name="to" [(ngModel)]="search.to">
+            </div>
+            <div>
+                <label for="">DEPARTURE</label>
+                <input tyle="margin-top: 4%;" type="date" name="month1" [(ngModel)]="search.month1">
+            </div>
+            <div>
+                <label for="">Time</label>
+                <select name="time1" id="" [(ngModel)]="search.time1">
+                    <option value="before6">BEFORE 6 AM</option>
+                    <option value="6 to 12">6AM to 12PM</option>
+                    <option value="12 to 6">12PM to 6PM</option>
+                    <option value="after6">AFTER 6PM</option>
+                </select>
+            </div>
+            <div class="searchr">
+                <label for="">CLASS</label>
+                <select name="classselection" id="" [(ngModel)]="search.selectcheck">
+                    <option value="Economy">ECONOMY</option>
+                    <option value="Business">BUSINESS</option>
+                </select>
+            </div>
+        </div>
+        <button class="button1" type="submit" (click)="submit()">SEARCH</button>
+    </form>
+    <br>
+    <div>
+        <h1>Available Flights</h1>
+        <div class="flight1" *ngFor="let key of flightKeys()">
+            <div class="flightl">
+                <p> {{flight[key][1]}}</p>
+                <p>{{flight[key][9]}}</p>
+                <p>{{flight[key][2]}}</p>
+                <h3>{{flight[key][5]}}</h3>
+            </div>
+            <div>
+                <h3 style="margin-top: 40%;">{{flight[key][7]}}</h3>
+            </div>
+            <div>
+                <p>Seats : {{flight[key][11]}}</p>
+                <p>{{flight[key][10]}}</p>
+                <p>{{flight[key][3]}}</p>
+                <h3>{{flight[key][6]}}</h3>
+            </div>
+            <div>
+                <h3 style="margin-top: 50%;">{{flight[key][8]}}</h3>
+            </div>
+            <div style="margin-right: 3%;" >
+                <button  class="button3" type="submit" (click)="showKey(key)">remove</button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Add Flights</h1>
+        <br>
+        <br>
+        <form class="form111" action="">      
+            <div class="form12">
+                <div class="formleft">
+                    <label for="">FLIGHT NUMBER:</label>
+                    <input type="number" name="fn" [(ngModel)]="addd.fn">
+                    <label for="">AIRLINE NAME:</label>
+                    <input type="text" name="an" [(ngModel)]="addd.an">
+                    <label for="">FROM:</label>
+                    <input type="search" name="fro" [(ngModel)]="addd.fro">
+                    <label for="">TO:</label>
+                    <input type="search" name="to1" [(ngModel)]="addd.to1">
+                    <label for="">DATE:</label>
+                    <input type="date" name="datee" [(ngModel)]="addd.datee">
+                    <label for="">DEPARTURE TIME:</label>
+                    <input type="time" name="timee" [(ngModel)]="addd.dtimee">
+                </div>
+                <div class="formright">
+                    <label for="">ARRIVAL TIME:</label>
+                    <input type="time" name="atimee" [(ngModel)]="addd.atimee">
+                    <label for="">DURATION:</label>
+                    <input type="text" name="du" [(ngModel)]="addd.du">
+                    <label for="">PRICE:</label>
+                    <input type="number" name="pri" [(ngModel)]="addd.pri">
+                    <label for="">FROM CODE:</label>
+                    <input type="text" name="fcode" [(ngModel)]="addd.fcode">
+                    <label for="">TO CODE:</label>
+                    <input type="text" name="tocode" [(ngModel)]="addd.tocode">
+                    <label for="">SEATS AVAILABLE:</label>
+                    <input type="number" name="avai" [(ngModel)]="addd.avai">
+                </div>
+            </div>
+            <button class="button2" type="submit" (click)="submit1()">ADD</button>
+            <br>
+            <br>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,151 @@
+.signup1{
+    /* background-image: url('../login/bck111.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.signup2 hr{
+    width: 88%;
+}
+.signup2 form{
+    position: absolute;
+    border: 2px solid white;
+    width:25%;
+    margin-top: 5%;
+    margin-left: 40% ;
+    font-family: Montserrat;
+    /* background-color: white; */
+    padding: 3% ;
+    padding-left: 4%;
+    border-radius: 40px;
+    margin-left: 35%;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+    /* box-shadow: 5px 10px 28px 10px gray; */
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+.signup2 img{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.signup2 h5{
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 30.48px;
+    font-family: 'Montserrat';
+    padding-bottom: 3%;
+    color: black;
+    width: 88%;
+}
+.signup2 label{
+    display: block;
+    color: #404550;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+}
+.signup2 .signame{
+    display: block;
+    padding-top: 5%;
+}
+.signup2 p{
+    color: #404550;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+}
+.signup2 input{
+    border: none;
+    border: 1.5px solid #687083;
+    padding: 2% 0%;
+    padding-left: 9.5%;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: #687083;
+}
+
+.signup2 input::placeholder{
+    font-weight:300;
+    font-family: Montserrat;
+    font-size: small;
+}
+
+.signup2 i{
+    position: absolute;
+    font-size:larger;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #687083;
+}
+.signup2 button{
+    background-color: rgb(232, 24, 24);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    font-family: 'Montserrat';
+    border-radius: 55px;
+    border: none;
+    padding: 2% 11%;
+    margin-top: 8%;
+    margin-left: 26%;
+}
+.signup2 button:hover{
+    background-color: red;
+}
+.mobile i{
+    font-size: 22px; 
+    margin-top: 8px;
+}
+.email1 i{
+    margin-top: 10px;
+}
+.signlog{
+    margin-top: 4%;
+    margin-left: 20%;
+}
+.signlog a{
+    text-decoration: none;
+    color: rgb(232, 24, 24);
+}
+.signlog a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.emclass1{
+    border: 1px solid rgb(216, 47, 47);
+    width: 75%;
+    margin-top: 4.5%;
+    margin-left: 5%;
+}
+.emclass1 p{
+    color: red;
+    padding: 6%;
+    text-align: right;
+    /* padding-bottom: 12%; */
+}
+.emclass1 span{
+    color: #F32013;
+    position: absolute;
+    font-size: xx-large;
+    padding-right: 10%;
+    padding-left: 4%;
+}
+.material-symbols-outlined{
+    padding-top: 2%;
+}
+.passsign p{
+    color:red;
+    padding-bottom: 0%;
+    padding-top: 1.5%;
+    font-size: medium;
+    margin-left:1% ;
+}
+
+

@@ -1,0 +1,61 @@
+.maincontainer{
+    background-image: url('../login/bck111.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.7%;
+    padding-bottom: 1.7%;
+    font-family: 'Montserrat';
+    font-weight: 525;
+}
+.navbar{
+    width: 50%;
+    font-size: larger;
+}
+.navbar nav{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 7%;   
+}
+.maincontainer h1{
+    text-align: center;
+    color: blue;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 5%;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    width: 50%;
+    padding:2% 0%;
+    margin-left: 25%;
+    margin-top: 3%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgb(0, 0, 0);
+
+
+}
+.detail p{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 1.5% 2%;
+    font-size: large;
+    
+}
+.left1{
+    margin-left: 10%;
+}
+.right1{
+    margin-right: 10%;
+}
+.ppp p{
+    padding: 5.8%;
+}

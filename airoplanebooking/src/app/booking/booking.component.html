@@ -1,0 +1,55 @@
+<div class="maincontainer"> 
+    <div class="main1">
+        <div>
+            <img src="" alt="">
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#" routerLink="/">Log Out</a>
+            </nav>
+        </div>
+    </div>
+    <h1 style="margin-right: 6%;">Ticket Details</h1>
+    <div class="flight1">
+        <div class="flightl">
+            <p> {{flight[1]}}</p>
+            <p>{{flight[9]}}</p>
+            <p>{{flight[2]}}</p>
+            <h3>{{flight[5]}}</h3>
+        </div>
+        <div>
+            <h3 style="margin-top: 40%;">{{flight[7]}}</h3>
+        </div>
+        <div>
+            <p>Seats : {{flight[11]}}</p>
+            <p>{{flight[10]}}</p>
+            <p>{{flight[3]}}</p>
+            <h3>{{flight[6]}}</h3>
+        </div>
+        <div class="flightr">
+            <h3 style="margin-top: 50%;">{{flight[8]}}</h3>
+        </div>
+    </div>
+    <div >
+    <h1 style="padding-bottom: 2%; margin-right: 6%;">Fill The Details</h1>
+    <div class="form11">
+    <form action="">
+        <label class="signame" for="">NAME :</label>
+        <input type="text" name="name1" size="40" [(ngModel)]="confirm.name1">
+        <label for="">MOBILE NO :</label>
+        <input type="text" name="mobile" size="40" [(ngModel)]="confirm.mobile" >
+        <label for="">EMAIL :</label>
+        <input type="email" name="email" size="40" [(ngModel)]="confirm.email">
+    </form>
+
+    <div>
+        <button type="submit" routerLink="/mybook" (click)="submit()"> CONFIRM</button>
+    </div>
+    </div>
+    <div class="buttond">
+        <button routerLink="/flight" type="submit">BACK</button>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="maincontainer"> 
+        <div class="main1">
+            <div>
+                <img src="" alt="">
+            </div>
+            <div class="navbar">
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#" routerLink="/">Log Out</a>
+                </nav>
+            </div>
+        </div>
+        <h1>Domestic and International Flights</h1>
+    <form class="form1" action="" >
+        <div class="searchd">
+            <div class="searchl">
+                <label for="">FROM :</label>
+                <input type="search" name="from" [(ngModel)]="search.from" >
+            </div>
+            <div>
+                <label for="">TO :</label>
+                <input type="search" name="to"  [(ngModel)]="search.to">
+            </div>
+            <div>
+                <label for="">DEPARTURE :</label>
+                <input style="margin-top: 4%;" type="date" name="month1"  [(ngModel)]="search.month1">
+            </div>
+            <div>
+                <label for="">Time :</label>
+                <select class="select1" name="time1" id="" [(ngModel)]="search.time1">
+                    <option value="before6">BEFORE 6 AM</option>  
+                    <option value="6 to 12">6AM to 12PM</option>
+                    <option value="12 to 6">12PM to 6PM</option>
+                    <option value="after6">AFTER 6PM</option>
+                </select>
+            </div>
+            <div class="searchr">
+                <label for="">CLASS :</label>
+                <select name="classselection" id="" [(ngModel)]="search.selectcheck">
+                    <option value="Economy">ECONOMY</option>
+                    <option value="Business">BUSINESS</option>
+                </select>
+            </div>
+        </div>
+        <button routerLink="/flight" type="submit" (click)="submit()">SEARCH</button>
+    </form>
+</div>
